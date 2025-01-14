@@ -544,7 +544,7 @@ func New(logger *zap.Logger, options ...Option) (Mux, error) {
 
 	mux.engine.NoMethod(wrapHandlers(DisableTraceLog)...)
 	mux.engine.NoRoute(wrapHandlers(DisableTraceLog)...)
-
+	mux.engine.Static("/ui", "ui/") // 将/static映射到./static目录
 	system := mux.Group("/system")
 	{
 		// 健康检查
