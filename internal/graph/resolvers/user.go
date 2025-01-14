@@ -3,8 +3,8 @@ package resolvers
 import (
 	"context"
 
-	"github.com/xinliangnote/go-gin-api/internal/graph/model"
-	"github.com/xinliangnote/go-gin-api/pkg/errors"
+	"go-gin-api-hxz/internal/graph/model"
+	"go-gin-api-hxz/pkg/errors"
 )
 
 func (r *queryResolver) BySex(ctx context.Context, sex string) ([]*model.User, error) {

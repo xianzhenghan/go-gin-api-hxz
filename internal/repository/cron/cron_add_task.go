@@ -3,7 +3,7 @@ package cron
 import (
 	"strings"
 
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/cron_task"
+	"go-gin-api-hxz/internal/repository/mysql/cron_task"
 
 	"github.com/spf13/cast"
 )

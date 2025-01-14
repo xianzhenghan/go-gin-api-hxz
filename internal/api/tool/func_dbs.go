@@ -1,8 +1,8 @@
 package tool
 
 import (
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/pkg/core"
 )
 
 type dbsResponse struct {

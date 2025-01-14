@@ -1,4 +1,4 @@
-module github.com/xinliangnote/go-gin-api
+module go-gin-api-hxz
 
 go 1.16
 

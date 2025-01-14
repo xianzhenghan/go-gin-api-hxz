@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql"
-	"github.com/xinliangnote/go-gin-api/internal/repository/redis"
-	"github.com/xinliangnote/go-gin-api/pkg/env"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/repository/mysql"
+	"go-gin-api-hxz/internal/repository/redis"
+	"go-gin-api-hxz/pkg/env"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"

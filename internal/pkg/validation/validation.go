@@ -3,7 +3,7 @@ package validation
 import (
 	"fmt"
 
-	"github.com/xinliangnote/go-gin-api/configs"
+	"go-gin-api-hxz/configs"
 
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"

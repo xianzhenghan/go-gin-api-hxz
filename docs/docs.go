@@ -20,7 +20,7 @@ var doc = `{
         "contact": {},
         "license": {
             "name": "MIT",
-            "url": "https://github.com/xinliangnote/go-gin-api/blob/master/LICENSE"
+            "url": "https://go-gin-api-hxz/blob/master/LICENSE"
         },
         "version": "{{.Version}}"
     },

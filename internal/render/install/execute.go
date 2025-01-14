@@ -6,10 +6,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/proposal/tablesqls"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/code"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/proposal/tablesqls"
 
 	"github.com/go-redis/redis/v7"
 	"github.com/spf13/cast"

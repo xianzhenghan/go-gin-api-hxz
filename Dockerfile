@@ -7,10 +7,10 @@ ENV GO111MODULE=on
 ENV GOPROXY=https://goproxy.io,direct
 
 # COPY 源路径 目标路径
-COPY . $GOPATH/src/github.com/xinliangnote/go-gin-api
+COPY . $GOPATH/src/go-gin-api-hxz
 
 # RUN 执行 go build .
-RUN cd $GOPATH/src/github.com/xinliangnote/go-gin-api && go build .
+RUN cd $GOPATH/src/go-gin-api-hxz && go build .
 
 # FROM 基于 alpine:latest
 FROM alpine:latest
@@ -24,7 +24,7 @@ RUN apk --no-cache add tzdata  && \
     echo "Asia/Shanghai" > /etc/timezone
 
 # COPY 源路径 目标路径 从镜像中 COPY
-COPY --from=builder /opt/repo/src/github.com/xinliangnote/go-gin-api /opt
+COPY --from=builder /opt/repo/src/go-gin-api-hxz /opt
 
 # EXPOSE 设置端口映射
 EXPOSE 9999/tcp

@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/pkg/file"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/pkg/file"
 
 	"go.uber.org/zap"
 )

@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql"
-	"github.com/xinliangnote/go-gin-api/internal/repository/redis"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/repository/mysql"
+	"go-gin-api-hxz/internal/repository/redis"
 
 	"go.uber.org/zap"
 )

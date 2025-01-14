@@ -1,17 +1,17 @@
 package router
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/render/admin"
-	"github.com/xinliangnote/go-gin-api/internal/render/authorized"
-	"github.com/xinliangnote/go-gin-api/internal/render/config"
-	"github.com/xinliangnote/go-gin-api/internal/render/cron"
-	"github.com/xinliangnote/go-gin-api/internal/render/dashboard"
-	"github.com/xinliangnote/go-gin-api/internal/render/generator"
-	"github.com/xinliangnote/go-gin-api/internal/render/index"
-	"github.com/xinliangnote/go-gin-api/internal/render/install"
-	"github.com/xinliangnote/go-gin-api/internal/render/tool"
-	"github.com/xinliangnote/go-gin-api/internal/render/upgrade"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/render/admin"
+	"go-gin-api-hxz/internal/render/authorized"
+	"go-gin-api-hxz/internal/render/config"
+	"go-gin-api-hxz/internal/render/cron"
+	"go-gin-api-hxz/internal/render/dashboard"
+	"go-gin-api-hxz/internal/render/generator"
+	"go-gin-api-hxz/internal/render/index"
+	"go-gin-api-hxz/internal/render/install"
+	"go-gin-api-hxz/internal/render/tool"
+	"go-gin-api-hxz/internal/render/upgrade"
 )
 
 func setRenderRouter(r *resource) {

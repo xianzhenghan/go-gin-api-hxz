@@ -3,12 +3,12 @@ package cron
 import (
 	"net/http"
 
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/validation"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/cron_task"
-	"github.com/xinliangnote/go-gin-api/internal/services/cron"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"go-gin-api-hxz/internal/code"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/pkg/validation"
+	"go-gin-api-hxz/internal/repository/mysql/cron_task"
+	"go-gin-api-hxz/internal/services/cron"
+	"go-gin-api-hxz/pkg/timeutil"
 
 	"github.com/spf13/cast"
 )

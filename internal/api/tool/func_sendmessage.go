@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/validation"
-	"github.com/xinliangnote/go-gin-api/internal/websocket/sysmessage"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"go-gin-api-hxz/internal/code"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/pkg/validation"
+	"go-gin-api-hxz/internal/websocket/sysmessage"
+	"go-gin-api-hxz/pkg/timeutil"
 )
 
 type sendMessageRequest struct {

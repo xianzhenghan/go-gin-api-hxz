@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/websocket/sysmessage"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/websocket/sysmessage"
 )
 
 func setSocketRouter(r *resource) {

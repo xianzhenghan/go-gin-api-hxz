@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/xinliangnote/go-gin-api/internal/graph/model"
+	"go-gin-api-hxz/internal/graph/model"
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"

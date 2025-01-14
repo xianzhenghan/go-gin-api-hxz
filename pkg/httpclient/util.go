@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/pkg/trace"
+	"go-gin-api-hxz/pkg/trace"
 
 	"github.com/pkg/errors"
 	"go.uber.org/zap"

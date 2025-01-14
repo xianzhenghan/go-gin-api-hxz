@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/router"
-	"github.com/xinliangnote/go-gin-api/pkg/env"
-	"github.com/xinliangnote/go-gin-api/pkg/logger"
-	"github.com/xinliangnote/go-gin-api/pkg/shutdown"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/router"
+	"go-gin-api-hxz/pkg/env"
+	"go-gin-api-hxz/pkg/logger"
+	"go-gin-api-hxz/pkg/shutdown"
+	"go-gin-api-hxz/pkg/timeutil"
 
 	"go.uber.org/zap"
 )
@@ -25,7 +25,7 @@ import (
 // @contact.email
 
 // @license.name MIT
-// @license.url https://github.com/xinliangnote/go-gin-api/blob/master/LICENSE
+// @license.url https://go-gin-api-hxz/blob/master/LICENSE
 
 // @securityDefinitions.apikey  LoginToken
 // @in                          header

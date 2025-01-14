@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/pkg/errors"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
-	"github.com/xinliangnote/go-gin-api/pkg/trace"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/pkg/errors"
+	"go-gin-api-hxz/pkg/timeutil"
+	"go-gin-api-hxz/pkg/trace"
 
 	"github.com/go-redis/redis/v7"
 )

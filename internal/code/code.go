@@ -3,7 +3,7 @@ package code
 import (
 	_ "embed"
 
-	"github.com/xinliangnote/go-gin-api/configs"
+	"go-gin-api-hxz/configs"
 )
 
 //go:embed code.go

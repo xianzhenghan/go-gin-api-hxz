@@ -3,12 +3,12 @@ package admin
 import (
 	"net/http"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/password"
-	"github.com/xinliangnote/go-gin-api/internal/services/admin"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/code"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/pkg/password"
+	"go-gin-api-hxz/internal/services/admin"
+	"go-gin-api-hxz/pkg/timeutil"
 
 	"github.com/spf13/cast"
 )

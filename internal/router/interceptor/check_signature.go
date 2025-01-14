@@ -4,14 +4,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/code"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/authorized"
-	"github.com/xinliangnote/go-gin-api/pkg/env"
-	"github.com/xinliangnote/go-gin-api/pkg/errors"
-	"github.com/xinliangnote/go-gin-api/pkg/signature"
-	"github.com/xinliangnote/go-gin-api/pkg/urltable"
+	"go-gin-api-hxz/configs"
+	"go-gin-api-hxz/internal/code"
+	"go-gin-api-hxz/internal/pkg/core"
+	"go-gin-api-hxz/internal/repository/mysql/authorized"
+	"go-gin-api-hxz/pkg/env"
+	"go-gin-api-hxz/pkg/errors"
+	"go-gin-api-hxz/pkg/signature"
+	"go-gin-api-hxz/pkg/urltable"
 )
 
 var whiteListPath = map[string]bool{

@@ -3,7 +3,7 @@ package cron
 import (
 	"fmt"
 
-	"github.com/xinliangnote/go-gin-api/internal/repository/mysql/cron_task"
+	"go-gin-api-hxz/internal/repository/mysql/cron_task"
 
 	"github.com/jakecoffman/cron"
 )
